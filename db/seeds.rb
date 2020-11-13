@@ -10,6 +10,7 @@
 
 # url = 'https://www.thecocktaildb.com/api/json/v1/1/list.php?i=list'
 
+Ingredient.destroy_all
 
 Ingredient.create(name: "lemon")
 Ingredient.create(name: "ice")
@@ -21,3 +22,4 @@ Ingredient.create(name: "orange juice")
 Ingredient.create(name: "rum")
 Ingredient.create(name: "whiskey")
 Ingredient.create(name: "scotch")
+
